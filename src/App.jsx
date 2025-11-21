@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import BookingForm from './components/BookingForm'
 import LiveStatus from './components/LiveStatus'
+import LiveMap from './components/LiveMap'
 
 function App() {
   return (
@@ -13,6 +14,10 @@ function App() {
         <section className="grid lg:grid-cols-2 gap-6">
           <BookingForm />
           <LiveStatus />
+        </section>
+
+        <section className="mt-8">
+          <LiveMap />
         </section>
 
         <section className="mt-10 text-center text-emerald-200/80">
